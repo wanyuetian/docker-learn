@@ -1,5 +1,0 @@
-FROM alpine:latest
-WORKDIR /root
-COPY app-server .
-
-CMD ["./app-server"]
